@@ -12,16 +12,16 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.9
     - pip
     - setuptools
   run:
-    - python >=3.7
-    - httpx >=0.16,<0.28
+    - python >=3.9
+    - httpx >=0.16,<0.29
     - python-gssapi
 
 test:
@@ -41,3 +41,4 @@ about:
 extra:
   recipe-maintainers:
     - jack-pappas
+    - seowalex
