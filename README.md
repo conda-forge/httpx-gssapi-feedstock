@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@jack-pappas](https://github.com/jack-pappas/)
+* [@seowalex](https://github.com/seowalex/)
 
