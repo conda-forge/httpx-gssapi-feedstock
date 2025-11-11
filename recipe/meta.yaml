@@ -1,5 +1,5 @@
 {% set name = "httpx-gssapi" %}
-{% set version = "0.5" %}
+{% set version = "0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: d1fe7af4c8544303bbb08e5b1bb51d87c5d3b07a1caa6594096660803e40188d
+  sha256: 03df3de8195e18c50690d44beadfdc514df8a2055cb5e773a2faa85fc3985f18
 
 build:
   noarch: python
